@@ -9,7 +9,7 @@ function ClientProjectsPage() {
     // load data...
     router.push({
       pathname: "/clients/[id]/[clientprojectid]",
-      query: { id: "jhonier", clientprojectid: "The project A" },
+      query: { id: "jhonier", clientprojectid: "The-project-A" },
     });
   }
 
